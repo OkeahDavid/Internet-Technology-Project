@@ -85,7 +85,7 @@ td {
 
 .featured h3{
     color: #fff;
-    font-size:100px;
+    font-size:90px;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
@@ -229,9 +229,15 @@ td {
     text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
-p {
-    
+#id {
+    font-size:20px;
     text-align: center;
     color: white;
   }
+  .MPML p {
+    font-size:20px;
+    text-align: center;
+    color: white;
+  }
+  
   
