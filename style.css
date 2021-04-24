@@ -5,7 +5,7 @@
 }*
 main{
     position:absolute;
-    padding: 20px;
+    padding: 10px;
   }
 header{
     background-image:url("book1.jpg");
@@ -30,7 +30,7 @@ ul li{
     ),url("book1.jpg");
     text-decoration: none;
     color:#fff;
-    padding: 5px 40px;
+    padding: 10px 50px;
     border: 1px solid #fff;
 }
 .title{
@@ -234,7 +234,7 @@ td {
     text-align: center;
     color: white;
   }
-  .MPML p {
+.MPML p {
     font-size:20px;
     text-align: center;
     color: white;
