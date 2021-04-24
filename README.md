@@ -5,3 +5,5 @@ The Project was created using HTML and CSS
 
 The task was to create a Writers' site
 
+live-diaries.netlify.app
+
