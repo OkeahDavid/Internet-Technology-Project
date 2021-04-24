@@ -203,9 +203,9 @@ td {
       rgba(153, 153, 153, 0.5)
     ),url("book1.jpg");
     color:white;
-    border-radius: 10px;
+    border-radius: 5px;
     border: 1px solid #999;
-    padding: 20px;
+    padding: 30px;
     display: block;
     width: 20px;
 }
