@@ -186,8 +186,8 @@ td {
     font-family:'Times New Roman', Times, serif;
 }
 .socialcontacts{
-    left:45%;
     bottom: 20%;
+    left:45%;
     position: absolute;
     font-size:20px;
 }
