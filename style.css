@@ -1,0 +1,238 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: "Times New Roman", Times, serif;
+}*
+.main{
+    position:absolute;
+    top: -4%;
+    padding: 20px;
+  }
+header{
+    background-image:url("book1.jpg");
+    height:100vh;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+.main ul li a{background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("book1.jpg");
+    text-decoration: none;
+    color:#fff;
+    padding: 5px 40px;
+    border: 1px solid #fff;
+}
+.title{
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   /* border: 10px solid #fff;*/
+    border: 10px solid rgba(255,255,255,.5);
+}
+.featured{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   /* border: 10px solid #fff;*/
+    /*border: 10px solid rgba(255,255,255,.5);*/
+}
+.MPML{
+    
+    position: absolute;
+    top:75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.books{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+td {
+    
+    text-align: center;
+    /*border: 1px solid black;*/
+    padding: 10px;
+  }
+.title h1{
+    
+    color: #fff;
+    font-size:50px;
+    text-align: center;
+    
+}
+.title h2{
+    color: #fff;
+    font-size:70px;
+    text-align: center;
+}
+
+
+.featured h3{
+    color: #fff;
+    font-size:100px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.Facebook{
+    right: 30px;
+    bottom: 15px;
+    position: absolute;
+    font-size:20px;
+}
+.Facebook ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+.Facebook ul li a{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 255, 0.8),
+      rgba(0, 0, 255, 0.8)
+    ),url("book1.jpg");
+    color:white;
+    border-radius: 50%;
+    border: 1px solid #999;
+    padding: 20px;
+    display: block;
+    width: 20px;
+}
+#me{
+    border: 5px solid #fff;
+    position: absolute;
+    top:50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+.author{
+    position:absolute;
+    top: 15%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+   
+}
+.author h1{
+    color: #fff;
+    font-size:70px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.para{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("book1.jpg");
+    position:absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+  .para h1{
+    color: #fff;
+    font-size:25px;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    border: 5px solid #fff;
+    padding: 15px;
+}
+.parac{
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),url("book1.jpg");
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.parac h2{
+    color: #fff;
+    font-size:25px;
+    text-align: justify;
+    font-family:'Times New Roman', Times, serif;
+    border: 5px solid #fff;
+    padding: 15px;
+}
+
+.conta{
+    position:absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.conta h1{
+    color: #fff;
+    font-size:70px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+.socialcontacts{
+    left:45%;
+    bottom: 20%;
+    position: absolute;
+    font-size:20px;
+}
+.socialcontacts ul li{
+    list-style: none;
+    margin-top: 15px;
+    text-align: center;
+}
+.socialcontacts ul li a{
+    background: 
+    linear-gradient(
+      rgba(153, 153, 153, 0.5),
+      rgba(153, 153, 153, 0.5)
+    ),url("book1.jpg");
+    color:white;
+    border-radius: 10px;
+    border: 1px solid #999;
+    padding: 20px;
+    display: block;
+    width: 20px;
+}
+#copyright{
+    color: white;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .available{
+    position:absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+.available h1{
+    color: #fff;
+    font-size:70px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+p {
+    
+    text-align: center;
+    color: white;
+  }
+  
