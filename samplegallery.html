@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+         <meta charset="utf-8">
+       </head>
+       <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="nav.css">  </head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    
+    <div class="topnav">
+      <a class="active" href="samplegallery.html">Home</a>
+      <a href="Contact1.html">Contact</a>
+      <a href="About1.html">About</a>
+    </div>
+    
+    <div style="padding-left:16px">
+      <h2>This is a Navigation Bar</h2>
+      <p>this was done using html and css</p>
+    </div>
+    <body>
+        <header>
+            <div id="randomGallery">
+                <form>
+                    <label for="width">width</label><br>
+                        <input type="number" min="300" max="1000" id="width"><br>
+                    <label for="height">height</label><br>
+                        <input type="number" min="300" max="450" id="height"><br>
+                    <label for="border">border</label><br>
+                        <input type="number" min="1" max="20" id="border"><br>
+                    <label for="t_alt">alt text</label><br>
+                        <input type="text" size="20" id="alt"><br><br>
+                    <input type=button value="change picture" onclick="change()"> 
+                </form>
+                <div id="rand">
+                    <img id=myimg src="./img/1.jpg" alt="nature">
+                </div>
+            </div>
+        <script type="text/javascript">
+            var arr=new Array("../img/1.jpg","../img/2.jpg","../img/3.png");  
+            
+            
+            width.onchange = function(){
+                myimg.style.width = this.value + "px";
+            }
+            
+            
+            height.onchange = function(){
+                myimg.style.height = this.value + "px";
+            }
+            
+           
+            border.onchange = function(){
+                img = document.getElementById("myimg");
+                img.border=border.value;
+                img.style.borderColor="black";
+            }
+            
+            
+            alt.onchange = function(){
+                img = document.getElementById("myimg");
+                img.alt=alt.value;
+            }
+
+            /
+            function change(){
+                var r=Math.floor(Math.random()*arr.length);
+                document.getElementById("myimg").src=arr[r];   
+            }
+        </script>
+      </body>
+</html>
